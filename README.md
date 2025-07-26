@@ -2,15 +2,14 @@
 
 This Power BI project presents an interactive dashboard for analyzing engagement trends across various social media platforms.
 
-## Key Features
-- Dynamic filters for platform, post type, sentiment, and post day
-- KPI cards for:
+**Average Sentiment Score**: Categorized as Positive, Negative, or Neutral based on textual sentiment analysis.
+- **Engagement per Post**: Calculates total interactions (likes + comments + shares) per post.
+- **Post Type Comparison**: Compares sentiment and engagement across post types such as image, video, and text.
+- **Temporal Insights**: Visualizations showing sentiment and engagement trends by day of the week.
+- **Smart KPIs**: Custom cards to highlight key metrics like:
+  - % of Positive vs. Negative Sentiment
   - Average Engagement per Post
-  - Positive Sentiment Rate
-  - Top Performing Platform
-- Line chart visualizing average sentiment score over time
-- Bookmark toggles to switch between high and low engagement posts
-- Clean layout using a neutral color palette for a professional presentation
+  - Most Engaging Post Type
 
 ## File Included
 - `Social_Media.pbix` – Power BI Desktop file containing visuals, DAX measures, interactions, bookmarks, and page styling
